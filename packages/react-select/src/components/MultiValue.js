@@ -140,6 +140,9 @@ const MultiValue = (props: MultiValueProps) => {
                   className
                 )
               ),
+              onClick: e => {
+                console.log(props.data.label)
+              }
             }}
             selectProps={selectProps}
           >

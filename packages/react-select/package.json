@@ -1,13 +1,16 @@
 {
-  "name": "react-select",
-  "version": "3.1.0",
+  "name": "react-select-multivalclick",
+  "version": "3.1.9",
   "description": "A Select control built with and for ReactJS",
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
+  "main": "dist/react-select-multivalclick.cjs.js",
+  "module": "dist/react-select-multivalclick.esm.js",
   "sideEffects": false,
   "author": "Jed Watson",
   "license": "MIT",
-  "repository": "https://github.com/JedWatson/react-select/tree/master/packages/react-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/react-select/tree/master/packages/react-select"
+  },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
     "@emotion/cache": "^10.0.9",
@@ -60,7 +63,10 @@
     ]
   },
   "browser": {
-    "./dist/react-select.cjs.js": "./dist/react-select.browser.cjs.js",
-    "./dist/react-select.esm.js": "./dist/react-select.browser.esm.js"
+    "./dist/react-select-multivalclick.cjs.js": "./dist/react-select-multivalclick.browser.cjs.js",
+    "./dist/react-select-multivalclick.esm.js": "./dist/react-select-multivalclick.browser.esm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

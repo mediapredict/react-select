@@ -1,5 +1,5 @@
 {
-  "name": "@react-select/monorepo",
+  "name": "react-select-multiValClick",
   "private": true,
   "version": "1.0.0",
   "description": "A Select control built with and for ReactJS",
@@ -84,7 +84,8 @@
     "unfetch": "^3.0.0",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^3.3.1",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "build": "preconstruct build",

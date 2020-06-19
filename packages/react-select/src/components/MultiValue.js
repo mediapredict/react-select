@@ -104,6 +104,7 @@ const MultiValue = (props: MultiValueProps) => {
     isDisabled,
     removeProps,
     selectProps,
+    onValueClick,
   } = props;
 
   const { Container, Label, Remove } = components;
@@ -141,7 +142,7 @@ const MultiValue = (props: MultiValueProps) => {
                 )
               ),
               onClick: e => {
-                console.log(props.data.label)
+                selectProps.onValueClick(data);
               }
             }}
             selectProps={selectProps}

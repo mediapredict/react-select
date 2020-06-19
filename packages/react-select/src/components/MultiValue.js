@@ -142,7 +142,7 @@ const MultiValue = (props: MultiValueProps) => {
                 )
               ),
               onClick: e => {
-                selectProps.onValueClick(data);
+                onValueClick(data);
               }
             }}
             selectProps={selectProps}

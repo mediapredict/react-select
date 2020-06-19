@@ -1,6 +1,6 @@
 {
   "name": "react-select-multivalclick",
-  "version": "3.1.10",
+  "version": "3.1.11",
   "description": "A Select control built with and for ReactJS",
   "main": "dist/react-select-multivalclick.cjs.js",
   "module": "dist/react-select-multivalclick.esm.js",

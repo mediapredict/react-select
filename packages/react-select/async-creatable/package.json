@@ -1,9 +1,9 @@
 {
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
+  "main": "dist/react-select-multivalclick.cjs.js",
+  "module": "dist/react-select-multivalclick.esm.js",
   "browser": {
-    "./dist/react-select.cjs.js": "./dist/react-select.browser.cjs.js",
-    "./dist/react-select.esm.js": "./dist/react-select.browser.esm.js"
+    "./dist/react-select-multivalclick.cjs.js": "./dist/react-select-multivalclick.browser.cjs.js",
+    "./dist/react-select-multivalclick.esm.js": "./dist/react-select-multivalclick.browser.esm.js"
   },
   "preconstruct": {
     "source": "../src/AsyncCreatable"
